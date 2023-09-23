@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: 400;
+        }
+
+        h1 {
+            letter-spacing: 4px;
+        }
+
+        /* navbar  */
+        a {
+            margin-left: -26px;
+            color: white;
+            padding: 25px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: gray;
+
+        }
+
+        nav {
+
+            padding: 25px;
+        }
+
+
+        /* band  */
+        .band {
+            max-width: 800px;
+            padding-top: 65px;
+            padding-bottom: 65px;
+        }
+
+        .band h1 {
+            padding-bottom: 30px;
+        }
+
+        .band .p {
+            text-align: justify;
+            padding-top: 20px;
+        }
+
+
+
+        .div-1 {
+            display: flex;
+            justify-content: space-evenly;
+            padding-right: 45px;
+        }
+
+        /* tour */
+        .maintour {
+            background-color: black;
+        }
+
+        .tour {
+
+            max-width: 800px;
+            padding-top: 45px;
+            padding-bottom: 45px;
+            background-color: black;
+            color: white;
+        }
+
+        .tour h1 {
+            padding-bottom: 30px;
+        }
+
+        .div-2 {
+            margin-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .div-2 p {
+            background-color: white;
+            max-width: 800px;
+            padding-bottom: 20px;
+            color: rgb(41, 38, 38);
+            text-align: justify;
+            padding-left: 10px;
+
+        }
+
+        span {
+            background-color: red;
+            color: white;
+            margin-left: 30px;
+
+
+
+
+
+
+        }
+
+        .div-3 {
+            padding-bottom: 20px;
+            background-color: white;
+            color: black;
+
+
+            margin-right: 550px;
+
+
+        }
+
+        h2 {
+
+            padding-right: 100px;
+            padding-bottom: 20px;
+
+        }
+
+        p {
+            padding-bottom: 30px;
+            padding-right: 80px;
+            text-align: justify;
+            padding-left: 10px;
+
+
+        }
+
+        .div-4 {
+            padding-bottom: 20px;
+            background-color: white;
+            color: black;
+
+        }
+
+        .div-5 {
+            background-color: white;
+            color: black;
+            padding-bottom: 20px;
+        }
+
+        .maincontact {
+            background-color: white;
+            margin-top: 50px;
+            padding-bottom: 70px;
+
+
+        }
+
+
+
+
+        .div-6 {
+            justify-content: space-evenly;
+
+        }
+
+        input {
+            height: 40px;
+        }
+
+        .option {
+            border: none;
+            height: 40px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav style="background-color: black;">
+        <a href="#home"> HOME</a>
+        <a href="#band"> BAND</a>
+        <a href="#tour"> TOUR</a>
+        <a href="#contact"> CONTACT</a>
+
+        <!-- <img src="images.png" width="35px" height="30px" style="padding-right: 450px;"> -->
+        <select class="option">
+            <option>MORE</option>
+            <option>Merchandise</option>
+            <option> Extras</option>
+            <option>Media</option>
+        </select>
+
+    </nav>
+
+    <div id="home">
+        <img src="ny.jpg" width="100%" height="650px">
+
+    </div>
+
+
+    <!-- band  -->
+    <center>
+
+
+        <div class="band" id="band">
+            <div>
+
+
+                <h1>THE BAND</h1>
+                <i>We love music</i>
+
+                <p class="p">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <br>
+            <br>
+            <div class="div-1">
+                <div class="band-imgs">
+                    <p style="padding-left: 90px;">NAME</p>
+                    <img src="bandmember.jpg" alt="band-img-1" width="60%">
+                </div>
+
+                <div class="band-imgs">
+                    <p style="padding-left: 90px;">NAME</p>
+                    <img src="bandmember.jpg" alt="band-img-2" width="60%">
+                </div>
+
+                <div class="band-imgs">
+                    <p style="padding-left: 90px;">NAME</p>
+                    <img src="bandmember.jpg" alt="band-img-3" width="60%">
+                </div>
+
+            </div>
+        </div>
+    </center>
+    <!-- tout -->
+
+    <center>
+        <div class="maintour">
+
+            <div class="tour" id="tour">
+                <div>
+
+
+                    <h1>TOUR DATES</h1>
+                    <i>Remember to book your tickets!</i>
+                </div>
+
+                <div class="div-2">
+                    <p style="padding: 12px;"> September <span>Sold out</span></p>
+                    <hr>
+                    <p style="padding: 12px;">October <span>Sold out</span></p>
+                    <hr>
+                    <p>November</p>
+                </div>
+                <div style="display: flex;">
+
+                    <div class="div-3" style=" margin-right: 20px; ">
+                        <img src="newyork.jpg" width="260px">
+                        <h2 style="padding-left: 5px;">New York</h2>
+                        <p style="color: grey;">FRI 27 NOV 2016</p>
+                        <p style="padding-right: 50px;">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button
+                            style="background-color: black; color: white; margin-right: 130px; width: 80px;height:40px;">Buy
+                            tickets</button>
+                    </div>
+
+
+                    <div class="div-4" style="margin-right: 20px;">
+
+                        <img src="paris.jpg" width="260px">
+                        <h2 style="padding-right: 180px;">Paris</h2>
+                        <p style="color: grey;">Sat 28 Nov 2016</p>
+                        <p> Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button
+                            style="background-color: black; margin-bottom: 20px; color: white; margin-right: 130px; width: 80px;height:40px;">Buy
+                            tickets</button>
+
+
+
+
+                    </div>
+
+                    <div class="-5" style="background-color: white;color: black;">
+
+                        <img src="sanfran.jpg" width="240px">
+                        <h2 style="padding-right: 90px;">San Francisco</h2>
+                        <p style="color: grey;">Sun 29 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button
+                            style="background-color: black; color: white; margin-right: 130px; width: 80px;height:40px;">Buy
+                            tickets</button>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </center>
+    <!-- contact -->
+    <center>
+        <div class="maincontact" id="contact">
+            <div>
+                <h1 style="padding-bottom: 20px;">CONTACT</h1>
+                <i>Fan? Drop a note!</i>
+
+            </div>
+            <div style="display: flex;" class="div-6">
+                <div style="padding-left: 70px; padding-top: 60px;">
+                    <h3 style="padding-right: 85px; "><img src="location.jpg" width="37px" height="30px"
+                            style="padding-right: 10px;">Chicago, US</h3>
+                    <h3 style="padding-right: 9px;"> <img src="call.png" width="17px" height="20px"
+                            style="padding-right: 22px;">Phone: +00 151515</h3>
+                    <h3> <img src="email.jpg" width="30px" height="22px" style="padding-right: 10px; "
+                            style="padding-right:10px">Email: mail@mail.com</h3>
+
+                </div>
+                <div style="padding-right: 35px; padding-top: 60px;">
+                    <input type="text" required placeholder="Name" size="25px" style="margin-right: 10px;">
+                    <input type="email" placeholder="Email" size="25px">
+                    <br>
+                    <input type="text" placeholder="Message" size="57px" style="margin-top: 10px; ">
+                    <br>
+                    <br>
+
+                    <button
+                        style="background-color: black; color: white; margin-left: 280px; width: 100px; height: 25px;">SEND</button>
+                </div>
+            </div>
+        </div>
+    </center>
+    <div style="padding-bottom: 50px;">
+        <img src="map.jpg" alt="" width="100%" height="600px">
+    </div>
+    <center>
+        <div style="padding-bottom: 30px;">
+            <img src="logo-facebook-gris.png" alt="" width="30px" height="30px">
+            <img src="insta.png" alt="" width="30px" height="30px">
+            <img src="snap.png" alt="" width="30px" height="30px">
+            <img src="p.png" alt="" width="30px" height="30px">
+            <img src="twi.png" alt="" width="30px" height="30px">
+
+        </div>
+    </center>
+
+
+
+</body>
+
+</html>
